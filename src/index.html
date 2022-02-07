@@ -4,10 +4,37 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Vite Generator</title>
+        <title>Flappy Bird Sharing</title>
+        <link rel="preload" as="font" href="/flappy.ttf" type="font/ttf" crossorigin="anonymous" />
+        <link rel="preload" as="font" href="/font.ttf" type="font/ttf" crossorigin="anonymous" />
+        <style>
+            html,
+            body {
+                margin: 0;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #container {
+                width: 1280px;
+                height: 720px;
+            }
+
+            @font-face {
+                font-family: flappy-font;
+                src: url('flappy.ttf');
+            }
+
+            @font-face {
+                font-family: retro-font;
+                src: url('font.ttf');
+            }
+        </style>
     </head>
     <body>
-        <div id="app"></div>
+        <div id="container"></div>
         <script type="module" src="/index.ts"></script>
     </body>
 </html>

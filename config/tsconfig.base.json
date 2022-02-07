@@ -12,6 +12,8 @@
         "forceConsistentCasingInFileNames": true,
 
         "downlevelIteration": true,
-        "removeComments": true
+        "removeComments": true,
+
+        "strictPropertyInitialization": false
     }
 }
