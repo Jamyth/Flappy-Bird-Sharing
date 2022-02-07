@@ -8,8 +8,10 @@ import Phaser from 'phaser';
 // import { MainScene } from 'bird-6/main';
 // import { MainScene } from 'bird-7/main';
 // import { MainScene } from 'bird-8/main';
-import { MainScene } from 'bird-9/main';
+// import { MainScene } from 'bird-9/main';
 // import { MainScene } from 'bird-10/main';
+// import { MainScene } from 'bird-11/main';
+import { MainScene } from 'bird-12/main';
 
 // Actual Canvas Scale
 const WIDTH = 1280;
